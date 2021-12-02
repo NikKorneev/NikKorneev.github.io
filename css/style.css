@@ -1,0 +1,227 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    position:fixed;
+    width:100%;
+    height: 50px;
+    background: #212121;
+    z-index:6;
+}
+a{text-decoration: none}
+
+
+header{
+    position: relative;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 30px;
+}
+
+.subheader{
+    margin-top: 50px;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0,0,0, .6);
+    height: 84px;
+}
+
+.subheader .subheader_off_text{
+    margin-top: 4px;
+    font-weight: 200;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.subheader .subheader_logo{
+    display: block;
+    margin-top: 19px;
+    max-width: 100%;
+}
+
+.subheader .subheader_callme{
+    margin-top: 19px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    display: block;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_phone{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    display: block;
+    align-items: center;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subheader .sub_btn, .promo .order_btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border:none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo{
+    background-image: url('../img/uber_bg.png');
+    height: 799px;
+    padding-top: 151px;
+}
+
+h1{
+    margin: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.promo h2{
+    display: block;
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo p{
+    margin: 16px 70px 0px 70px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo span{
+    display: block;
+    margin: 34px 70px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .order_btn{
+    display: block;
+    margin: 115px auto;
+    width: 259px;
+    height: 63px;
+}
+
+
+.Advantages h2{
+    justify-content: center;
+    display: flex;
+    width: 112px;
+    height: 24px;
+    background: #000000;
+    margin: 20px auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 5px ;
+}
+.Advantages h3{
+    display: block;
+    margin-top: 33px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.Advantages .round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 116px; 
+    float:left;
+    margin-right: 25px;
+
+}
+.Advantages h4.icon_h{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #1EACC7;
+}
+.Advantages p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    width: 341;
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    color: #202020;
+}
+.Advantages .sweet{
+    width:1064px;
+    display: block;
+    margin: 0 auto;
+
+}
+.Advantages .col-md-6{
+    text-align: left;
+    margin-top: 26px;
+    max-height: 150px;
+}
